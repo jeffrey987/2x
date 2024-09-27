@@ -1,7 +1,7 @@
 enum InputAction {
-    SlideRight,
-    SlideLeft,
-    SlideUp,
-    SlideDown,
-    Restart
+	SlideRight,
+	SlideLeft,
+	SlideUp,
+	SlideDown,
+	Restart
 }

@@ -5,8 +5,8 @@ const TILE_SCENE: PackedScene = preload("res://scenes/tile.tscn")
 signal changed
 signal tile_merged(value: int)
 
-var tiles: Array[Tile]
-var tile_container: Node
+var tiles: Array[Tile] # 九宫格面板
+var tile_container: Node # 九宫格链接
 var game: Game
 
 func _init(_game: Game, _tile_container: Node) -> void:
